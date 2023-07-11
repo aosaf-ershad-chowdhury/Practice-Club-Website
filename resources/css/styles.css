@@ -1,0 +1,489 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header, footer, section{
+    background-color: #7B506F;
+    color: #EAD7D1;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+header, section{
+    border-bottom: 7.5px double #EAD7D1;
+}
+
+h1, h2, h3, p{
+    margin-top: 0;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #1F1A38;
+    border-bottom: 7.5px double #EAD7D1;
+}
+
+nav ul{
+    display: inline;
+    width: 80%;
+    float: inline-end;
+}
+
+nav li{
+    
+    list-style-type: none;
+    display: inline;
+    margin: 0 2rem;
+    float: inline-end;
+
+}
+
+#nav-icon{
+    display: none;
+}
+
+nav a{
+    color: #EAD7D1;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header nav img{
+    width: 4rem;
+    display: inline;
+}
+
+#join-button{
+    border: 3px solid #EAD7D1;
+    padding: 0.5rem;
+    position: relative;
+    bottom: 0.5rem;
+    right:0.5rem;
+    border-radius: 100px;
+    background-color: #DD99BB;
+}
+
+    
+#join-button a{
+    color: #1F1A38;
+}
+
+#top-banner{
+    background-image: url('../images/annie-spratt-dWYU3i-mqEo-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33rem;
+    padding: 1rem 1rem 3rem 3rem;
+    color: #EAD7D1;
+    display: flex;
+    align-items: end;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+#top-banner-about{
+    width: 80%;
+}
+
+#top-reg-button{
+    margin-top: 2rem;
+
+}
+
+#top-reg-button a{
+    color:#1F1A38;
+    text-decoration: none;
+    font-weight: 700;
+    border: 3px solid #EAD7D1;
+    padding: 0.5rem;
+    border-radius: 100px;
+    background-color: #DD99BB;    
+}
+
+@media only screen and (max-width: 895px){
+    h1{
+        font-size: 2.5rem;
+    }
+
+    #top-banner-about{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:815px) {
+    nav li{
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width:873px){
+    #top-banner-about{
+        width: 85%;
+    }
+    
+} 
+
+@media only screen and (max-width:695px) {
+   #nav-icon{
+    display: inline;
+    float: right;
+    color: #EAD7D1;
+    font-size: 2rem;
+    margin: 0.5rem;
+    border: 3.5px solid #EAD7D1;
+    padding: 1%;
+    border-radius: 10px;
+   }
+
+   nav ul{
+    display: none;
+   }
+}
+
+
+@media only screen and (max-width: 625px) {
+    #top-banner{
+        height: 37rem;
+    }
+}
+
+@media only screen and (max-width: 623px) {
+    h1{
+        width:80%;
+    }
+    
+}
+
+@media only screen and (max-width: 545px) {
+    #top-banner{
+        height: 40rem;
+    }
+}
+
+@media only screen and (max-width: 513px) {
+    h1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 459px) {
+    h1{
+        width:90%;
+    }
+
+    #top-banner-about{
+        width: 90%;
+        font-size: 1.15rem;
+    }
+    
+}
+
+@media only screen and (max-width: 411px) {
+    #top-banner{
+        height: 45rem;
+    }
+}
+
+@media only screen and (max-width: 351px) {
+    h1{
+        width:95%;
+    }
+
+    #top-banner-about{
+        width: 95%;
+        font-size: 1.1rem;
+    }
+    #top-banner{
+        height: 50rem;
+    }
+}
+
+section{
+    padding: 2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+section p{
+    text-align: center;
+}
+
+.intro-p{
+    font-size: 1.35rem;
+    margin-bottom: 2rem;
+}
+
+#separate-activities{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#separate-activities div{
+    width: 30%;
+    border: 5px solid #EAD7D1;
+    margin-bottom: 2rem;
+    background-color: #1F1A38;
+    padding: 2%;
+}
+
+#separate-activities i{
+    font-size: 2rem;
+    margin-left: 45%;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 971px) {
+    #separate-activities div{
+        width: 37%;
+    }
+    
+}
+
+@media only screen and (max-width:931px){
+    h3{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 843px) {
+    #separate-activities div{
+        width: 42%;
+    }
+    
+}
+
+@media only screen and (max-width: 695px) {
+    #separate-activities div{
+        width: 45%;
+    }
+    
+}
+
+@media only screen and (max-width: 627px) {
+    #separate-activities div{
+        width: 48%;
+    }
+    
+}
+
+@media only screen and (max-width: 555px) {
+    #separate-activities div{
+        width: 60%;
+    }
+    
+}
+
+@media only screen and (max-width: 510px) {
+    #separate-activities div{
+        min-width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 349px) {
+    #separate-activities div{
+        min-width: 250px;
+    }
+    
+}
+
+#governing-body-section{
+    background-color: #1F1A38;
+}
+
+#gb-members{
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#gb-members div{
+    width: 20%;
+}
+
+#gb-members img{
+    width: 100%;
+    /* border: 5px solid #EAD7D1; */
+}
+
+#gb-members h3{
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 1110px) {
+    #gb-members div{
+        width: 26%;
+    }
+    
+}
+
+@media only screen and (max-width: 843px) {
+    #gb-members div{
+        width: 30%;
+    }
+    
+}
+
+@media only screen and (max-width: 743px) {
+    #gb-members div{
+        width: 35%;
+    }    
+}
+
+@media only screen and (max-width: 633px) {
+    #gb-members div{
+        width: 40%;
+    }    
+}
+
+@media only screen and (max-width: 553px) {
+    #gb-members div{
+        width: 51%;
+    }    
+}
+
+@media only screen and (max-width: 510px) {
+    #gb-members div{
+        min-width: 210px;
+    }    
+}
+
+
+#registration-section div{
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid #EAD7D1;
+    padding: 3rem;
+    background-color: #1F1A38;
+}
+
+#registration-section input{
+    display: block;
+    width: 50%;
+    height: 2.5rem;
+    margin: 2rem auto 0;
+    border-radius: 100px;
+    padding-left: 1rem;
+}
+
+#registration-section input::placeholder{
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#submit-button{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    border: 5px solid #EAD7D1;
+    background-color: #DD99BB; 
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1060px){
+    #registration-section div{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 951px){
+    #registration-section input{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 831px){
+    #registration-section input{
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 705px){
+    #registration-section div{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 657px){
+    #registration-section div{
+        width: 90%;
+    }
+
+    /* #registration-section input{
+        width: 80%;
+    } */
+}
+
+@media only screen and (max-width: 600px){
+    #registration-section input{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 527px){
+    #registration-section input{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 453px){
+    #registration-section div{
+        min-width: 300px;
+    }
+
+    #registration-section input{
+        min-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 335px){
+    #registration-section{
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+    
+    #registration-section div{
+        width: 100%;
+    }
+}
+
+
+footer{
+    background-color: #1F1A38;
+    text-align: center;
+    padding: 2rem 2rem 1rem;
+}
+
+footer i{
+    color: #EAD7D1;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 819px) {
+    footer{
+        font-size: 1.1rem;
+    }
+}
